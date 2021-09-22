@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- Demo styles -->
+</head>
+
+<body>
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <!--title-->
+                <div class="big_title">
+                    <h1>
+                        조영미에 관한<br>
+                        모든 사실들
+                    </h1>
+                </div>
+                <div class="save_title">
+                    <p>
+                        출처 : 조윤서
+                    </p>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="top">
+                    <h1>
+                        소개
+                    </h1>
+                </div>
+                <div class="bottom">
+                    <p>
+                        이름 : 조영미<br><br>
+
+                        키 : 163cm<br><br>
+
+                        몸무게 : 999t<br><br>
+
+                        나이 : 마음만은 8살<br><br>
+                        혈액형 : 다혈질이므로 아마도 B형<br><br>
+
+                        출생지 : 대구로 예상<br><br>
+
+                        동아리 : <del>이존모(이서현을 존경하는 사람들의 모임)</del><br><br>
+
+                        좋아하는 것 : 조윤서<br><br>
+
+                        성격 : 험학, 포악<br><br>
+
+                        꿈 : 세계정복<br><br>
+
+                        특이사항 : 건드려도 물고 안 건드려도 뭄<br><br>
+                    </p>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="top">
+                    <h1>
+                        참고자료
+                    </h1>
+                </div>
+                <div class="i">
+                    <img src="joe.png">
+                </div>
+                <div class="text">
+                    <h2>
+                        댓글
+                    </h2>
+                    <p>
+                        ㅈ@@ : 개같네<br><br>
+
+                        ㅈ&& : 내가 생각해도 ㅁ잘뫈ㄷ금ㅈㅁ<br><br>
+
+                        ㅇ^^ : ㄱㅋㄱㅋㄱㅋㄱㅋㄱㅋㅋ<br><br>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="good.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            pagination: {
+                el: ".swiper-pagination",
+                dynamicBullets: true
+            }
+        });
+    </script>
+</body>
+
+</html>
